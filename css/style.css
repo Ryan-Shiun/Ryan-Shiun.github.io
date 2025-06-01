@@ -9,6 +9,10 @@ body{
     background-color: #fff;
     font-size: 1.5rem;
     color: #fca61f;
+}.card-img-top {
+  width: 95%;
+  object-fit: contain;     /* 保持比例裁切 */
+  border-radius: 5px;   /* 圓角可選 */
 }
 /* styling navbar links  */
 .navbar-nav a{
@@ -144,10 +148,14 @@ body{
     background-color: rgb(234, 234, 249);
 }
 .progress-card{
-    padding: 12% 10% 10% 15%;
+    padding: 10% 0; /* 調整內邊距，讓內容更居中 */
     background-color: #fff;
     text-align: center;
     border-radius: 10%;
+    display: flex;
+    flex-direction: column; /* 垂直排列 */
+    align-items: center;    /* 水平居中 */
+    justify-content: center; /* 垂直居中 */
 }
 .progress-card:hover{
     transform: scale(1.1,1.1);
@@ -175,6 +183,9 @@ body{
     position: relative;
     font-size: 1.5rem;
     font-weight: 600;
+    position: absolute; /* 確保數字在圓形正中間 */
+    font-size: 1.2rem; /* 調整數字大小 */
+    font-weight: bold;
 }
 .html-progress{
     color: #fca61f;
@@ -383,4 +394,16 @@ footer .link-group a:hover{
     background-color: #fca61f;
     color: #fff;
     animation: pulse 3s infinite;
+}
+
+/* 自訂 badge 樣式 */
+.custom-badge {
+  font-size: 1.0rem; /* 調整字體大小 */
+  padding: 0.3rem 0.8rem; /* 增加內邊距 */
+  border-radius: 1rem; /* 圓角 */
+  background-color: #bfbfbf; /* 自訂背景色 */
+  color: #fff; /* 字體顏色 */
+  font-weight: bold; /* 加粗字體 */
+  display: inline-block;
+  margin-bottom: 0.5rem; /* 增加間距 */
 }
