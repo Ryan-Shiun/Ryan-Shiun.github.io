@@ -1,476 +1,773 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ryan Shiun website</title>
 
-    <!--- Bootstrap 5 css CDN Link --->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ryan Shiun website</title>
 
-    <!-- bootstrap javascript cdn link  -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  <!--- Bootstrap 5 css CDN Link --->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
 
-    <!-- my css file -->
-    <link rel="stylesheet" href="css/style.css" />
+  <!-- bootstrap javascript cdn link  -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
 
-    <!-- google font link -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
+  <!-- my css file -->
+  <link rel="stylesheet" href="css/style.css" />
 
-    <!-- bootstrap icon cdn link  -->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css"
-    />
+  <!-- google font link -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet" />
 
-    <!-- for adding animation to website we have use AOS library 
+  <!-- bootstrap icon cdn link  -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css" />
+
+  <!-- for adding animation to website we have use AOS library 
     AOS Library css file cdn link -->
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
-    <!-- jquery cdn link  -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <!-- jquery cdn link  -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
 
-  </head>
-  
-  <body>
-    <!-- navbar starts -->
-    <nav
-      id="navbar-top"
-      class="navbar navbar-expand-lg navbar-light bg-white sticky-top"
-    >
-      <div class="container-fluid px-5">
-        <a class="navbar-brand fw-bold fs-2" href="#" style="color: #3f396d"
-          >Ryan-Shiun</a
-        >
-        <button
-          class="nav-menu d-md-none"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-        >
-          <i class="bi bi-menu-button-fill"></i>
-        </button>
-        <div
-          class="collapse navbar-collapse justify-content-center"
-          id="navbarNav"
-        >
-          <ul class="navbar-nav gap-4" style="font-size: 1.1rem">
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#skill">Skills</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#project">Project</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#certificate-wall">Certificate</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#my-learning">My Learning</a>
-            </li>
-          </ul>
-        </div>
-        <a href="#contact" class="c-btn ms-4 py-2 px-4 rounded-pill d-none d-md-block" style="text-decoration: none;">Contact</a>
+</head>
+
+<body>
+  <!-- navbar starts -->
+  <nav id="navbar-top" class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
+    <div class="container-fluid px-5">
+      <a class="navbar-brand fw-bold fs-2" href="#" style="color: #3f396d">Ryan-Shiun</a>
+      <button class="nav-menu d-md-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <i class="bi bi-menu-button-fill"></i>
+      </button>
+      <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+        <ul class="navbar-nav gap-4" style="font-size: 1.1rem">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skill">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#project">Project</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#certificate-wall">Certificate</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#my-learning">My Learning</a>
+          </li>
+        </ul>
       </div>
-    </nav>
-    <!-- navbar ends here -->
+      <a href="#contact" class="c-btn ms-4 py-2 px-4 rounded-pill d-none d-md-block"
+        style="text-decoration: none;">Contact</a>
+    </div>
+  </nav>
+  <!-- navbar ends here -->
 
-    <!-- Home section starts  -->
-    <section class="home pt-5 pb-5" id="home">
-      <div class="row justify-content-evenly align-middle">
-        <!-- here data-aos is used for adding aos animation  -->
-        <div class="col-10 col-md-6 text-center text-md-start" data-aos="slide-right">
-          <h3 style="color: #3f396d">
-            Hello! I Am <br /><span class="c-orange">Ryan Shiun</span>
-          </h3>
-          <p class="text-muted">
-            Junior Backend Engineer，擅長 Java、JavaScript 和 SQL Server，喜歡做些小工具讓生活更便利，期望能夠參與具創新性的專案，並與優秀的團隊協作，一同成長。
-          </p>
-          <a href="" class="link ms-4 d-none">See My Work</a>
-        </div>
-        <div class="col-10 col-md-4 d-none d-md-block">
-          <img src="images/banner2.png" class="img-fluid" alt="" />
-        </div>
-      </div>
-    </section>
-    <!-- Home section ends here -->
-
-    <!-- Skills section starts -->
-    <section class="expertise mt-5" id="skill">
-      <div class="heading text-center">
-        <h3>
-            My Skills
+  <!-- Home section starts  -->
+  <section class="home pt-5 pb-5" id="home">
+    <div class="row justify-content-evenly align-middle">
+      <!-- here data-aos is used for adding aos animation  -->
+      <div class="col-10 col-md-6 text-center text-md-start" data-aos="slide-right">
+        <h3 style="color: #3f396d">
+          Hello! I Am <br /><span class="c-orange">Ryan Shiun</span>
         </h3>
+        <p class="text-muted">
+          Junior Backend Engineer，擅長 Java、JavaScript 和 SQL Server，喜歡做些小工具讓生活更便利，期望能夠參與具創新性的專案，並與優秀的團隊協作，一同成長。
+        </p>
+        <a href="" class="link ms-4 d-none">See My Work</a>
       </div>
-      <div class="row justify-content-evenly mt-5">
-        <div class="col-10 col-md-4" data-aos="fade-up">
-          <div class="service-card">
-            <div class="img">
-              <img
-                src="images/gear3.png"
-                class="w-25 img-fluid img"
-                alt=""
-              />
-            </div>
-            <div class="content mt-3">
-              <h4>Java 後端開發</h4>
-              <p class="text-muted">
-                熟悉使用 Java 結合 Spring Boot 架構進行 API 開發，<br>
-                具備基本物件導向與 MVC 架構觀念
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 col-10" data-aos="fade-up">
-          <div class="service-card">
-            <div class="img">
-              <img
-                src="images/database3.png"
-                class="w-25 img-fluid img"
-                alt=""
-              />
-            </div>
-            <div class="content mt-3">
-              <h4>資料庫設計與操作</h4>
-              <p class="text-muted">
-                SQL Server 撰寫查詢語句與基本資料庫設計。
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 col-10" data-aos="fade-up">
-          <div class="service-card">
-            <div class="img">
-              <img
-                src="images/api3.png"
-                class="w-25 img-fluid img"
-                alt=""
-              />
-            </div>
-            <div class="content mt-3">
-              <h4>RESTful API 整合</h4>
-              <p class="text-muted">
-                	熟悉 RESTful 架構，能設計與串接基本 API，<br>
-                  並處理 JSON 資料格式。
-              </p>
-            </div>
-          </div>
-        </div>
+      <div class="col-10 col-md-4 d-none d-md-block">
+        <img src="images/banner2.png" class="img-fluid" alt="" />
       </div>
-    </section>
+    </div>
+  </section>
+  <!-- Home section ends here -->
 
-    <section class="skill mt-5 py-5">
-      <div class="row justify-content-evenly">
-        <div class="col-10 col-md-5 skill-with-progress" data-aos="slide-right">
-          <div class="row justify-content-evenly">
-            <div class="col-10 col-md-6">
-              <div class="progress-card ms-3 ms-md-0">
-                <div class="circular-progress html-css">
-                  <span class="progress-value html-progress">0%</span>
-                </div>
-                <br />
-                <span class="text">Java</span>
-              </div>
-            </div>
-            <div class="col-10 col-md-6 mt-4 mt-md-0">
-              <div class="progress-card ms-3 ms-md-0">
-                <div class="circular-progress javascript">
-                  <span class="progress-value javascript-progress">0%</span>
-                </div>
-                <br />
-                <span class="text">SQL</span>
-              </div>
-            </div>
+  <!-- Skills section starts -->
+  <section class="expertise mt-5" id="skill">
+    <div class="heading text-center">
+      <h3>
+        My Skills
+      </h3>
+    </div>
+    <div class="row justify-content-evenly mt-5">
+      <div class="col-10 col-md-4" data-aos="fade-up">
+        <div class="service-card">
+          <div class="img">
+            <img src="images/gear3.png" class="w-25 img-fluid img" alt="" />
           </div>
-          <div class="row justify-content-evenly mt-4">
-            <div class="col-10 col-md-6">
-              <div class="progress-card ms-3 ms-md-0">
-                <div class="circular-progress php">
-                  <span class="progress-value php-progress">0%</span>
-                </div>
-                <br />
-                <span class="text">JavaScript</span>
-              </div>
-            </div>
-            <div class="col-10 col-md-6 mt-4 mt-md-0">
-              <div class="progress-card ms-3  ms-md-0">
-                <div class="circular-progress reactjs">
-                  <span class="progress-value reactjs-progress">0%</span>
-                </div>
-                <br>
-                <span class="text">HTML & CSS</span>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-10 col-md-5 skill-detail" data-aos="slide-left">
-          <div class="heading mt-5 mt-md-3">
-            <small>Programming language</small>
-            <h3>後端開發技能與學習歷程</h3>
+          <div class="content mt-3">
+            <h4>Java 後端開發</h4>
             <p class="text-muted">
-              我熟悉 Java、JavaScript 及 SQL Server，並具備實作經驗能夠獨立撰寫後端邏輯、資料庫操作與 API 串接。雖然目前仍在持續精進 Spring Boot 後端技術，但我樂於學習與挑戰，持續優化程式效能與架構，朝向成為全方位工程師前進。
+              熟悉使用 Java 結合 Spring Boot 架構進行 API 開發，<br>
+              具備基本物件導向與 MVC 架構觀念
             </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-10" data-aos="fade-up">
+        <div class="service-card">
+          <div class="img">
+            <img src="images/database3.png" class="w-25 img-fluid img" alt="" />
+          </div>
+          <div class="content mt-3">
+            <h4>資料庫設計與操作</h4>
             <p class="text-muted">
-              歡迎前端設計師找我一起協作 Side Project。
+              SQL Server 撰寫查詢語句與基本資料庫設計。
             </p>
-            <a
-              href="https://github.com/Ryan-Shiun"
-              target="_blank"
-              class="c-btn h-btn mt-3 py-3 px-5 rounded-pill"
-              style="text-decoration: none; color: #fff;"
-            >
-              Go to My Github
-            </a>
           </div>
         </div>
       </div>
-    </section>
-    <!-- skill section end here -->
-
-    <!-- Project section starts here -->
-    <section class="portfolio" id="project">
-      <div class="heading text-center pt-5">
-        <small>Creative Work</small>
-        <h3>My Project</h3>
-        <br>
+      <div class="col-md-4 col-10" data-aos="fade-up">
+        <div class="service-card">
+          <div class="img">
+            <img src="images/api3.png" class="w-25 img-fluid img" alt="" />
+          </div>
+          <div class="content mt-3">
+            <h4>RESTful API 整合</h4>
+            <p class="text-muted">
+              熟悉 RESTful 架構，能設計與串接基本 API，<br>
+              並處理 JSON 資料格式。
+            </p>
+          </div>
+        </div>
       </div>
-      <div class="portfolio-body">
-        <div class="row justify-content-evenly px-4">
-          <div class="post col-md-4 game all col-10 mt-3 mt-md-0" data-aos="fade-up">
-            <div class="card">
-              <img src="images/color.jpg" class="card-img-top" alt="..." />
+    </div>
+  </section>
+
+  <section class="skill mt-5 py-5">
+    <div class="row justify-content-evenly">
+      <div class="col-10 col-md-5 skill-with-progress" data-aos="slide-right">
+        <div class="row justify-content-evenly">
+          <div class="col-10 col-md-6">
+            <div class="progress-card ms-3 ms-md-0">
+              <div class="circular-progress html-css">
+                <span class="progress-value html-progress">0%</span>
+              </div>
+              <br />
+              <span class="text">Java</span>
             </div>
           </div>
-          <div class="post col-md-4 website all col-10 mt-3 mt-md-0" data-aos="fade-up">
-            <div class="card">
-                <img
-                src="images/helmet.jpg"
-                class="card-img-top"
-                alt="..."/>
-              <div class="card-body text-center">
-                <br>
-                <h4 class="card-title">工安視界 VisionSite</h4>
-                <span class="custom-badge">Python</span>
-                <span class="custom-badge">yolo5</span>
-                <span class="custom-badge">Arduino</span>
-                <span class="custom-badge">ESP32-CAM</span>
-                <br />
+          <div class="col-10 col-md-6 mt-4 mt-md-0">
+            <div class="progress-card ms-3 ms-md-0">
+              <div class="circular-progress javascript">
+                <span class="progress-value javascript-progress">0%</span>
+              </div>
+              <br />
+              <span class="text">SQL</span>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-evenly mt-4">
+          <div class="col-10 col-md-6">
+            <div class="progress-card ms-3 ms-md-0">
+              <div class="circular-progress php">
+                <span class="progress-value php-progress">0%</span>
+              </div>
+              <br />
+              <span class="text">JavaScript</span>
+            </div>
+          </div>
+          <div class="col-10 col-md-6 mt-4 mt-md-0">
+            <div class="progress-card ms-3  ms-md-0">
+              <div class="circular-progress reactjs">
+                <span class="progress-value reactjs-progress">0%</span>
+              </div>
+              <br>
+              <span class="text">HTML & CSS</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-10 col-md-5 skill-detail" data-aos="slide-left">
+        <div class="heading mt-5 mt-md-3">
+          <small>Programming language</small>
+          <h3>後端開發技能與學習歷程</h3>
+          <p class="text-muted">
+            我熟悉 Java、JavaScript 及 SQL Server，並具備實作經驗能夠獨立撰寫後端邏輯、資料庫操作與 API 串接。雖然目前仍在持續精進 Spring Boot
+            後端技術，但我樂於學習與挑戰，持續優化程式效能與架構，朝向成為全方位工程師前進。
+          </p>
+          <p class="text-muted">
+            歡迎前端設計師找我一起協作 Side Project。
+          </p>
+          <a href="https://github.com/Ryan-Shiun" target="_blank" class="c-btn h-btn mt-3 py-3 px-5 rounded-pill"
+            style="text-decoration: none; color: #fff;">
+            Go to My Github
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- skill section end here -->
+
+  <!-- Project section starts here -->
+  <section class="portfolio" id="project">
+    <div class="heading text-center pt-5">
+      <small>My Project</small>
+      <h3>專案作品</h3>
+      <br>
+    </div>
+    <div class="portfolio-body">
+      <!-- Bootstrap Carousel -->
+      <div id="projectCarousel" class="carousel slide" data-bs-ride="carousel" data-aos="fade-up">
+        <div class="carousel-inner">
+          <!-- 養老院系統 - 第一個畫面 (預設顯示) -->
+          <div class="carousel-item active">
+            <div class="row justify-content-evenly px-4">
+              <div class="col-md-4 col-10 mt-3 mt-md-0">
+                <div class="card project-card h-100"
+                  onclick="window.open('https://github.com/Ryan-Shiun/SeniorsCare', '_blank')" style="cursor: pointer;">
+                  <div class="position-relative overflow-hidden">
+                    <img src="images/line.png" class="card-img-top" alt="Line 登入" />
+                    <div
+                      class="project-overlay position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center justify-content-center">
+                      <h5 class="text-white fw-bold">Line 登入</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4 col-10 mt-3 mt-md-0">
+                <div class="card project-card h-100"
+                  onclick="window.open('https://github.com/Ryan-Shiun/SeniorsCare', '_blank')" style="cursor: pointer;">
+                  <div class="position-relative overflow-hidden">
+                    <img src="images/data.png" class="card-img-top" alt="養老院系統" />
+                    <div
+                      class="project-overlay position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center justify-content-center">
+                      <div class="text-center text-white">
+                        <h5 class="fw-bold mb-2">養老院系統</h5>
+                        <div>
+                          <span class="badge bg-primary me-1">Spring Boot</span>
+                          <span class="badge bg-success me-1">Security</span>
+                          <span class="badge bg-warning me-1">REST Api</span>
+                          <span class="badge bg-info">MS SQL</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4 col-10 mt-3 mt-md-0">
+                <div class="card project-card h-100"
+                  onclick="window.open('https://github.com/Ryan-Shiun/SeniorsCare', '_blank')" style="cursor: pointer;">
+                  <div class="position-relative overflow-hidden">
+                    <img src="images/member.png" class="card-img-top" alt="員工後台系統" />
+                    <div
+                      class="project-overlay position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center justify-content-center">
+                      <h5 class="text-white fw-bold">員工後台系統</h5>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
-          <div class="post col-md-4 webapp all col-10 mt-3 mt-md-0" data-aos="fade-up">
-            <div class="card">
-              <img src="images/face.jpg" class="card-img-top" alt="..."/>
-            </div>
-          </div>
-        </div>
-        <div class="row justify-content-evenly mt-4 px-4">
-          <div class="post col-md-4 game all col-10 mt-3 mt-md-0" data-aos="fade-up">
-            <div class="card">
-              <img src="images/login.png" class="card-img-top" alt="..." />
-            </div>
-          </div>
-          <div class="post col-md-4 website all col-10 mt-3 mt-md-0" data-aos="fade-up">
-            <div class="card">
-              <img src="images/movie.png" class="card-img-top" alt="..." />
-              <div class="card-body text-center">
-                <br>
-                <h4 class="card-title">影評系統 Movie Review System</h4>
-                <span class="custom-badge">TMDB API</span>
-                <span class="custom-badge">Java</span>
-                <span class="custom-badge">SQL Server</span>
-                <span class="custom-badge">Swing</span>
-                <br />
+
+          <!-- 商城系統 - 第二個畫面 -->
+          <div class="carousel-item">
+            <div class="row justify-content-evenly px-4">
+              <div class="col-md-4 col-10 mt-3 mt-md-0">
+                <div class="card project-card h-100"
+                  onclick="window.open('https://github.com/Ryan-Shiun/Springboot-mall', '_blank')" style="cursor: pointer;">
+                  <div class="position-relative overflow-hidden">
+                    <img src="images/shop.png" class="card-img-top" alt="商品列表" />
+                    <div
+                      class="project-overlay position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center justify-content-center">
+                      <h5 class="text-white fw-bold">商品列表</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4 col-10 mt-3 mt-md-0">
+                <div class="card project-card h-100"
+                  onclick="window.open('https://github.com/Ryan-Shiun/Springboot-mall', '_blank')" style="cursor: pointer;">
+                  <div class="position-relative overflow-hidden">
+                    <img src="images/cart.png" class="card-img-top" alt="購物車" />
+                    <div
+                      class="project-overlay position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center justify-content-center">
+                      <div class="text-center text-white">
+                        <h5 class="fw-bold mb-2">商城系統</h5>
+                        <div>
+                          <span class="badge bg-primary me-1">Spring Boot</span>
+                          <span class="badge bg-success me-1">Vue3</span>
+                          <span class="badge bg-warning me-1">REST Api</span>
+                          <span class="badge bg-info">MySQL</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4 col-10 mt-3 mt-md-0">
+                <div class="card project-card h-100"
+                  onclick="window.open('https://github.com/Ryan-Shiun/Springboot-mall', '_blank')" style="cursor: pointer;">
+                  <div class="position-relative overflow-hidden">
+                    <img src="images/myOrder.png" class="card-img-top" alt="我的訂單" />
+                    <div
+                      class="project-overlay position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center justify-content-center">
+                      <h5 class="text-white fw-bold">我的訂單</h5>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
-          <div class="post col-md-4 all col-10 mt-3 mt-md-0" data-aos="fade-up">
-            <div class="card">
-              <img
-                src="images/review.png"
-                class="card-img-top"
-                alt="..."/>
+
+          <!-- 工安影像辨識 - 第三個畫面 -->
+          <div class="carousel-item">
+            <div class="row justify-content-evenly px-4">
+              <div class="col-md-4 col-10 mt-3 mt-md-0">
+                <div class="card project-card h-100" onclick="window.open('#', '_blank')" style="cursor: pointer;">
+                  <div class="position-relative overflow-hidden">
+                    <img src="images/color.jpg" class="card-img-top" alt="顏色辨識專案" />
+                    <div
+                      class="project-overlay position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center justify-content-center">
+                      <h5 class="text-white fw-bold">顏色辨識系統</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4 col-10 mt-3 mt-md-0">
+                <div class="card project-card h-100" onclick="window.open('#', '_blank')" style="cursor: pointer;">
+                  <div class="position-relative overflow-hidden">
+                    <img src="images/helmet.jpg" class="card-img-top" alt="工安視界專案" />
+                    <div
+                      class="project-overlay position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center justify-content-center">
+                      <div class="text-center text-white">
+                        <h5 class="fw-bold mb-2">工安視界 VisionSite</h5>
+                        <div>
+                          <span class="badge bg-primary me-1">Python</span>
+                          <span class="badge bg-success me-1">YOLO5</span>
+                          <span class="badge bg-warning me-1">Arduino</span>
+                          <span class="badge bg-info">ESP32-CAM</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4 col-10 mt-3 mt-md-0">
+                <div class="card project-card h-100" onclick="window.open('#', '_blank')" style="cursor: pointer;">
+                  <div class="position-relative overflow-hidden">
+                    <img src="images/face.jpg" class="card-img-top" alt="人臉辨識專案" />
+                    <div
+                      class="project-overlay position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center justify-content-center">
+                      <h5 class="text-white fw-bold">人臉辨識系統</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 影評推薦系統 - 第四個畫面 -->
+          <div class="carousel-item">
+            <div class="row justify-content-evenly px-4">
+              <div class="col-md-4 col-10 mt-3 mt-md-0">
+                <div class="card project-card h-100"
+                  onclick="window.open('https://github.com/Ryan-Shiun/MovieRecommendSystem.git', '_blank')"
+                  style="cursor: pointer;">
+                  <div class="position-relative overflow-hidden">
+                    <img src="images/login.png" class="card-img-top" alt="登入系統專案" />
+                    <div
+                      class="project-overlay position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center justify-content-center">
+                      <h5 class="text-white fw-bold">用戶登入系統</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4 col-10 mt-3 mt-md-0">
+                <div class="card project-card h-100"
+                  onclick="window.open('https://github.com/Ryan-Shiun/MovieRecommendSystem.git', '_blank')"
+                  style="cursor: pointer;">
+                  <div class="position-relative overflow-hidden">
+                    <img src="images/movie.png" class="card-img-top" alt="影評系統專案" />
+                    <div
+                      class="project-overlay position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center justify-content-center">
+                      <div class="text-center text-white">
+                        <h5 class="fw-bold mb-2">影評系統 Movie Review</h5>
+                        <div>
+                          <span class="badge bg-danger me-1">TMDB API</span>
+                          <span class="badge bg-warning me-1">Java</span>
+                          <span class="badge bg-primary me-1">SQL Server</span>
+                          <span class="badge bg-success">Swing</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4 col-10 mt-3 mt-md-0">
+                <div class="card project-card h-100"
+                  onclick="window.open('https://github.com/Ryan-Shiun/MovieRecommendSystem.git', '_blank')"
+                  style="cursor: pointer;">
+                  <div class="position-relative overflow-hidden">
+                    <img src="images/review.png" class="card-img-top" alt="評論系統專案" />
+                    <div
+                      class="project-overlay position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center justify-content-center">
+                      <h5 class="text-white fw-bold">評論管理系統</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
-    <!-- project section ends here -->
 
-    <!-- Certificate section starts  -->
-    <section class="certificate-wall mt-5 pt-5" id="certificate-wall">
-      <div class="heading text-center">
-        <small>Certificates</small>
-        <h3>My Certificates</h3>
+        <!-- Carousel controls -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#projectCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#projectCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
-      <div class="row justify-content-center mt-5 g-4">
-        <div class="col-10 col-md-3 d-flex align-items-stretch">
-          <div class="card h-100">
-            <img src="images/C++.jpg" class="card-img-top" alt="Certificate 1 (Vertical)" style="object-fit: cover; height: 100%; min-height: 350px;">
-          </div>
-        </div>
-        <div class="col-10 col-md-3 d-flex align-items-stretch">
-          <div class="card h-100">
-            <img src="images/Electric.jpg" class="card-img-top" alt="Certificate 3 (Vertical)" style="object-fit: cover; height: 100%; min-height: 350px;">
-          </div>
-        </div>
-        <div class="col-10 col-md-3 d-flex flex-column align-items-stretch">
-          <div class="card mb-3 flex-fill" style="height: 49%;">
-            <img src="images/TQC.jpg" class="card-img-top" alt="Certificate 2 (Horizontal)" style="object-fit: cover; height: 100%; min-height: 170px;">
-          </div>
-          <div class="card flex-fill" style="height: 49%;">
-            <img src="images/Industrial.jpg" class="card-img-top" alt="Certificate 4 (Horizontal)" style="object-fit: cover; height: 100%; min-height: 170px;">
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Certificate ends here -->
+    </div>
+  </section>
+  <!-- project section ends here -->
 
-    <!-- My Learning section starts -->
-    <section class="my-learning mt-5 pb-5" id="my-learning">
-      <div class="heading text-center pt-5">
+  <!-- Certificate section starts  -->
+  <section class="certificate-wall mt-5 pt-5" id="certificate-wall">
+    <div class="heading text-center">
+      <small>My Certificates</small>
+      <h3>證照與培訓</h3>
+    </div>
+    <div class="row justify-content-center mt-5 g-4">
+      <div class="col-10 col-md-3 d-flex align-items-stretch">
+        <div class="card h-100">
+          <img src="images/C++.jpg" class="card-img-top" alt="Certificate 1 (Vertical)"
+            style="object-fit: cover; height: 100%; min-height: 350px;">
+        </div>
+      </div>
+      <div class="col-10 col-md-3 d-flex align-items-stretch">
+        <div class="card h-100">
+          <img src="images/Electric.jpg" class="card-img-top" alt="Certificate 3 (Vertical)"
+            style="object-fit: cover; height: 100%; min-height: 350px;">
+        </div>
+      </div>
+      <div class="col-10 col-md-3 d-flex flex-column align-items-stretch">
+        <div class="card mb-3 flex-fill" style="height: 49%;">
+          <img src="images/TQC.jpg" class="card-img-top" alt="Certificate 2 (Horizontal)"
+            style="object-fit: cover; height: 100%; min-height: 170px;">
+        </div>
+        <div class="card flex-fill" style="height: 49%;">
+          <img src="images/Industrial.jpg" class="card-img-top" alt="Certificate 4 (Horizontal)"
+            style="object-fit: cover; height: 100%; min-height: 170px;">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Certificate ends here -->
+
+  <!-- My Learning section starts -->
+  <section class="my-learning mt-5 pb-5" id="my-learning">
+    <div class="heading text-center pt-5">
       <small>Learning Resources</small>
-      <h3>My Learning</h3>
-      </div>
-      <div class="container mt-4">
+      <h3>學習資源</h3>
+    </div>
+    <div class="container mt-4">
       <p class="text-muted text-center">
         分享自學程式的免費資源，以及我在 Udemy 上過的課程。
       </p>
       <div class="row justify-content-center mt-4">
         <div class="col-10 col-md-5 mb-4" data-aos="fade-up">
-        <div class="card h-100 shadow-sm">
-          <div class="card-body">
-          <h5 class="card-title">
-            <span class="badge bg-danger me-2">FREE</span>
-            線上免費資源
-          </h5>
-          <p class="card-text text-muted">
-            我將常用的免費學習資源整理成檔案，適合初學者探索程式世界，先用免費資源了解 coding 是否有興趣。
-          </p>
-          <a href="https://hackmd.io/@ryan-shiun/rJcRoPC00" target="_blank" class="btn btn-outline-danger rounded-pill px-4">
-            免費學習資源
-          </a>
+          <div class="card h-100 shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title">
+                <span class="badge bg-danger me-2">FREE</span>
+                線上免費資源
+              </h5>
+              <p class="card-text text-muted">
+                我將常用的免費學習資源整理成檔案，適合初學者探索程式世界，先用免費資源了解 coding 是否有興趣。
+              </p>
+              <a href="https://hackmd.io/@ryan-shiun/rJcRoPC00" target="_blank"
+                class="btn btn-outline-danger rounded-pill px-4">
+                免費學習資源
+              </a>
+            </div>
           </div>
-        </div>
         </div>
         <div class="col-10 col-md-5 mb-4" data-aos="fade-up" data-aos-delay="100">
-        <div class="card h-100 shadow-sm">
-          <div class="card-body">
-          <h5 class="card-title">
-            <i class="bi bi-mortarboard-fill me-2"></i>
-            Udemy 推薦課程
-          </h5>
-          <p class="card-text text-muted">
-            整理我在 Udemy 上過覺得不錯的課程，可以先收藏等到 super discount（每月都有課程會降到 390 元或 85% OFF）再購買。
-          </p>
-          <a href="https://hackmd.io/@ryan-shiun/B1NeyVU1yx" target="_blank" class="btn btn-outline-danger rounded-pill px-4">
-            推薦 Udemy 課程
-          </a>
+          <div class="card h-100 shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title">
+                <i class="bi bi-mortarboard-fill me-2"></i>
+                Udemy 推薦課程
+              </h5>
+              <p class="card-text text-muted">
+                整理我在 Udemy 上過覺得不錯的課程，可以先收藏等到 super discount（每月都有課程會降到 390 元或 85% OFF）再購買。
+              </p>
+              <a href="https://hackmd.io/@ryan-shiun/B1NeyVU1yx" target="_blank"
+                class="btn btn-outline-danger rounded-pill px-4">
+                推薦 Udemy 課程
+              </a>
+            </div>
           </div>
         </div>
-        </div>
       </div>
+    </div>
+  </section>
+  <!-- My Learning section ends -->
+
+  <!-- contact section starts -->
+  <section class="contact py-5" id="contact">
+    <div class="heading text-center">
+      <small>Contact me</small>
+      <h4>歡迎找我一起做專案呦😊</h4>
+    </div>
+    <div class="row justify-content-center mt-5">
+      <div class="col-md-6 col-11 contact-details" data-aos="slide-up">
+        <ul class="list-unstyled fs-5">
+          <li class="mb-4 d-flex align-items-center">
+            <i class="bi bi-geo-alt-fill me-3 c-orange fs-3"></i>
+            <span>新北市林口區 Linkou District, New Taipei City, Taiwan</span>
+          </li>
+          <li class="mb-4 d-flex align-items-center">
+            <i class="bi bi-telephone-fill me-3 c-orange fs-3"></i>
+            <span>+886 0968399426</span>
+          </li>
+          <li class="mb-4 d-flex align-items-center">
+            <i class="bi bi-send-fill me-3 c-orange fs-3"></i>
+            <span>a0976828118@gmail.com</span>
+          </li>
+          <li class="mb-4 d-flex align-items-center">
+            <i class="bi bi-line me-3 c-orange fs-3"></i>
+            <span>ID: weber12345</span>
+          </li>
+          <li class="mb-4 d-flex align-items-center">
+            <i class="bi bi-github me-3 c-orange fs-3"></i>
+            <span><a href="https://github.com/Ryan-Shiun" target="_blank"
+                class="text-decoration-none text-dark">github.com/Ryan-Shiun</a></span>
+        </ul>
       </div>
-    </section>
-    <!-- My Learning section ends -->
+    </div>
+  </section>
+  <!-- contact section ends here -->
 
-    <!-- contact section starts -->
-    <section class="contact py-5" id="contact">
-      <div class="heading text-center">
-        <small>Contact me</small>
-        <h4>歡迎找我一起做專案呦😊</h4>
-      </div>
-      <div class="row justify-content-center mt-5">
-        <div class="col-md-6 col-11 contact-details" data-aos="slide-up">
-          <ul class="list-unstyled fs-5">
-            <li class="mb-4 d-flex align-items-center">
-              <i class="bi bi-geo-alt-fill me-3 c-orange fs-3"></i>
-              <span>新北市林口區 Linkou District, New Taipei City, Taiwan</span>
-            </li>
-            <li class="mb-4 d-flex align-items-center">
-              <i class="bi bi-telephone-fill me-3 c-orange fs-3"></i>
-              <span>+886 0968399426</span>
-            </li>
-            <li class="mb-4 d-flex align-items-center">
-              <i class="bi bi-send-fill me-3 c-orange fs-3"></i>
-              <span>a0976828118@gmail.com</span>
-            </li>
-            <li class="mb-4 d-flex align-items-center">
-              <i class="bi bi-line me-3 c-orange fs-3"></i>
-              <span>ID: weber12345</span>
-            </li>
-            <li class="mb-4 d-flex align-items-center">
-              <i class="bi bi-github me-3 c-orange fs-3"></i>
-              <span><a href="https://github.com/Ryan-Shiun" target="_blank" class="text-decoration-none text-dark">github.com/Ryan-Shiun</a></span>
-          </ul>
-        </div>
-      </div>
-    </section>
-    <!-- contact section ends here -->
+  <!-- 跳轉到最上層  -->
+  <button type="button" class="btn btn-floating btn-lg rounded-pill" id="btn-back-to-top">
+    <i class="bi bi-arrow-up"></i>
+  </button>
 
-      <!-- 跳轉到最上層  -->
-    <button
-      type="button"
-      class="btn btn-floating btn-lg rounded-pill"
-      id="btn-back-to-top"
-    >
-      <i class="bi bi-arrow-up"></i>
-    </button>
+  <!-- footer section starts  -->
+  <footer class="text-center text-muted py-4">
+    <h3 class="text-white pt-4" data-aos="fade-up">Ryan-Shiun website</h3>
+    <div class="link-group mt-5" data-aos="fade-up">
+      <a href="#home">Home</a>
+      <div class="vr"></div>
+      <a href="#skill">Skills</a>
+      <div class="vr"></div>
+      <a href="#project">Project</a>
+      <div class="vr"></div>
+      <a href="#certificate-wall">Certificate</a>
+      <div class="vr"></div>
+      <a href="#my-learning">Learning</a>
+    </div>
+    <div class="social-links mt-5" data-aos="fade-up">
+      <a href="https://www.facebook.com/jingxoy" target="_blank" class="rounded-pill dribble"
+        style="display: inline-block; border: none; background: none; padding: 0; font-size: 2rem;">
+        <i class="bi bi-facebook"></i>
+      </a>
+      <a href="https://www.instagram.com/ryan_shiun/" target="_blank" class="rounded-pill instagram"
+        style="display: inline-block; border: none; background: none; padding: 0; font-size: 2rem;">
+        <i class="bi bi-instagram" style="font-size: 2rem;"></i>
+      </a>
+    </div>
+    <hr class="text-muted my-4" />
 
-    <!-- footer section starts  -->
-    <footer class="text-center text-muted py-4">
-      <h3 class="text-white pt-4" data-aos="fade-up">Ryan-Shiun website</h3>
-      <div class="link-group mt-5" data-aos="fade-up">
-        <a href="#home">Home</a>
-        <div class="vr"></div>
-        <a href="#skill">Skills</a>
-        <div class="vr"></div>
-        <a href="#project">Project</a>
-        <div class="vr"></div>
-        <a href="#certificate-wall">Certificate</a>
-        <div class="vr"></div>
-        <a href="#my-learning">Learning</a>
-      </div>
-      <div class="social-links mt-5" data-aos="fade-up">
-        <a href="https://www.facebook.com/jingxoy" target="_blank" class="rounded-pill dribble" style="display: inline-block; border: none; background: none; padding: 0; font-size: 2rem;">
-          <i class="bi bi-facebook"></i>
-        </a>
-        <a href="https://www.instagram.com/ryan_shiun/" target="_blank" class="rounded-pill instagram" style="display: inline-block; border: none; background: none; padding: 0; font-size: 2rem;">
-          <i class="bi bi-instagram" style="font-size: 2rem;"></i>
-        </a>
-      </div>
-      <hr class="text-muted my-4" />
+    <p>Thank you for visiting my website!</p>
+  </footer>
+  <!-- footer section ends here -->
 
-      <p>Thank you for visiting my website!</p>
-    </footer>
-    <!-- footer section ends here -->
+  <!-- bootstrap javascript cdn link  -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
 
-      <!-- bootstrap javascript cdn link  -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
-      crossorigin="anonymous"
-    ></script>
+  <!-- AOS library javascript link  -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    // initializing AOS library
+    AOS.init({
+      duration: 1000,
+      offset: 50,
+    });
+  </script>
+  <!-- custom js file linking -->
+  <script src="js/script.js"></script>
 
-    <!-- AOS library javascript link  -->
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-      // initializing AOS library
-      AOS.init({
-        duration: 1000,
-        offset: 50,
-      });
-    </script>
-    <!-- custom js file linking -->
-    <script src="js/script.js"></script>
+</body>
 
-  </body>
 </html>
+
+<style>
+  /* 項目卡片懸停效果 */
+  .project-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+  }
+
+  .project-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+  }
+
+  .project-card img {
+    transition: transform 0.3s ease;
+    height: 300px;
+    object-fit: cover;
+    width: 100%;
+  }
+
+  /* 關鍵修改：預設隱藏遮罩層 */
+  .project-overlay {
+    background: rgba(0, 0, 0, 0.8);
+    opacity: 0;
+    /* 預設完全透明 */
+    visibility: hidden;
+    /* 預設隱藏 */
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+    backdrop-filter: blur(2px);
+  }
+
+  /* 只有在懸停時才顯示遮罩層 */
+  .project-card:hover .project-overlay {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .project-card:hover img {
+    transform: scale(1.05);
+  }
+
+  /* 美化輪播控制按鈕樣式 */
+  .carousel-control-prev,
+  .carousel-control-next {
+    width: 8%;
+    opacity: 0.7;
+    transition: opacity 0.3s ease;
+  }
+
+  .carousel-control-prev:hover,
+  .carousel-control-next:hover {
+    opacity: 1;
+  }
+
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    background-color: #3f396d;
+    background-size: 50% 50%;
+    border-radius: 50%;
+    width: 4rem;
+    height: 4rem;
+    border: 3px solid rgba(255, 255, 255, 0.9);
+    box-shadow: 0 4px 15px rgba(63, 57, 109, 0.3);
+    transition: all 0.3s ease;
+  }
+
+  .carousel-control-prev-icon:hover,
+  .carousel-control-next-icon:hover {
+    background-color: #5a4f8a;
+    transform: scale(1.1);
+    box-shadow: 0 6px 20px rgba(63, 57, 109, 0.5);
+    border-color: #ffffff;
+  }
+
+  /* 自定義箭頭圖標 */
+  .carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffffff'%3e%3cpath d='m3.86 8.753 5.482 4.796c.646.566 1.658.106 1.658-.753V3.204a1 1 0 0 0-1.659-.753l-5.48 4.796a1 1 0 0 0 0 1.506z'/%3e%3c/svg%3e");
+  }
+
+  .carousel-control-next-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffffff'%3e%3cpath d='m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z'/%3e%3c/svg%3e");
+  }
+
+  /* 美化指示器 */
+  .carousel-indicators {
+    margin-bottom: 2rem;
+  }
+
+  .carousel-indicators button {
+    background-color: #3f396d;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin: 0 8px;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    transition: all 0.3s ease;
+  }
+
+  .carousel-indicators button.active {
+    background-color: #e74c3c;
+    border-color: #ffffff;
+    transform: scale(1.2);
+  }
+
+  .carousel-indicators button:hover {
+    background-color: #5a4f8a;
+    border-color: #ffffff;
+    transform: scale(1.1);
+  }
+
+  /* 響應式設計 */
+  @media (max-width: 768px) {
+    .project-card img {
+      height: 250px;
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next {
+      width: 12%;
+    }
+
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+      width: 3rem;
+      height: 3rem;
+      border-width: 2px;
+    }
+
+    .carousel-indicators button {
+      width: 12px;
+      height: 12px;
+      margin: 0 5px;
+    }
+
+    /* 行動裝置上的觸控效果 */
+    .project-card:active .project-overlay {
+      opacity: 1;
+      visibility: visible;
+    }
+  }
+
+  /* 針對更小的螢幕優化 */
+  @media (max-width: 576px) {
+
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+      width: 2.5rem;
+      height: 2.5rem;
+    }
+
+    .carousel-indicators {
+      margin-bottom: 1rem;
+    }
+  }
+</style>
